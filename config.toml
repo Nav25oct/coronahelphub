@@ -1,0 +1,272 @@
+# Main config file for icon theme.
+
+languageCode = "en-us"
+ignoreFiles = [ "\\.files/README.md$",  ]
+defaultContentLanguage = "en"
+title = "Coronahelphub"
+theme = "hugo-icon"
+uglyurls = false
+googleAnalytics = ""
+sectionPagesMenu = "main"
+relativeURLs = true
+publishDir = "docs"
+
+[blackfriday]
+hrefTargetBlank = true
+
+[params]
+editURL = "https://github.com/https://github.com/Nav25oct/coronahelphub/edit/master/content/"
+themeVariant = "mine"
+showVisitedLinks = false
+author = "Navnit Shukla"
+description = "coronahelphub"
+disableSearch = false
+disableAssetsBusting = false
+disableLanguageSwitchingButton = true
+disableShortcutsTitle=false
+disableInlineCopyToClipBoard = true
+ghrepo = "https://github.com/https://github.com/Nav25oct/coronahelphub/"
+branch = "master"
+template_bucket = "chatbotworkshop.com"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "tango"
+
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/coronavirus.jpg"
+  title = "United we stand, divided we fall"
+  description = "Senior citizens are considered most vulnerable amid the coronavirus crisis and are often left with no choice but to put themselves in harm’s way to get necessities such as groceries. Anyone age 60 or older living in Tustin,CA or near by area that is specifically vulnerable to contracting the virus (according to the CDC) can request needed supplies and groceries through calling our helpline number or placing order directly from website. After submitting the request, a member of the team will shop for those items and drop them off free of charge."
+  helpline = "Helpline Number +1 000.000.0000"
+  orders = "Click here to place your order"
+
+# Navigation section
+[params.nav]
+  mission = "How can we help?"
+  services = "About coronavirus"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "Serving neighbourhood"
+    title = "Serving neighbourhood"
+    subtitle = "1. Tustin, CA ( 92782 )"
+    description = "<p>Currently we are serving to mentiond neighbourhood but constantly looking for new volunteers to start chapter in his/her area. </p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "Learn - coronavirus"
+    subtitle = "https://www.cdc.gov/coronavirus/2019-ncov/index.html"
+    description = "<p>https://www.cdc.gov/coronavirus/2019-ncov/index.html</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  # Contact section
+  [[params.mission.item]]
+    weight = 3
+    name = "strategy"
+    title = "Palce your order"
+    message = "Please provide the details of Grocery you are looking for ( please keep only essentials)."
+    name_placeholder = "Your name"
+    email_placeholder = "Your email"
+    email_disclaimer = "We'll never share your email with anyone else."
+    message_placeholder = "Please provide Grocery item name and quantity."
+    button_text = "Submit"
+
+  #[[params.mission.item]]
+  #  weight = 3
+  #  name = "strategy"
+  #  title = "Strategy"
+  #  subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
+  #  description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "https://www.youtube.com/watch?v=oGruT7Fd54E"
+  title = "Symptoms of  Coronavirus"
+  description = "Watch Video to learn about Symptoms of  Coronavirus."
+
+  #[[params.services.item]]
+  #  icon = "icon-present"
+  #  title = "Web Development"
+  #  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  #[[params.services.item]]
+  # icon = "icon-eye"
+  #  title = "Retina Ready"
+  #  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  #[[params.services.item]]
+  #  icon = "icon-paper-plane"
+  #  title = "Light Speed"
+  #  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  #[[params.services.item]]
+  #  icon = "icon-pencil"
+  #  title = "Copyrighting"
+  #  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  #[[params.services.item]]
+  #  icon = "icon-rocket"
+  #  title = "Load Fast"
+  #  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  #[[params.services.item]]
+  #  icon = "icon-support"
+  #  title = "Customer Support"
+  #  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+# Work section
+[params.work]
+  enable = true
+
+  #[[params.work.item]]
+  # title = "Consectetur adipisicing"
+  # subtitle = "Web Design"
+  #  img = "images/img_1.jpg"
+
+  #[[params.work.item]]
+  #  title = "Consectetur adipisicing"
+  #  subtitle = "Web Design"
+  #  img = "images/img_2.jpg"
+
+  #[[params.work.item]]
+  #  title = "Consectetur adipisicing"
+  #  subtitle = "Web Design"
+  #  img = "images/img_3.jpg"
+
+  #[[params.work.item]]
+  #  title = "Consectetur adipisicing"
+  #  subtitle = "Web Design"
+  #  img = "images/img_2.jpg"
+
+  #[[params.work.item]]
+  #  title = "Consectetur adipisicing"
+  #  subtitle = "Web Design"
+  #  img = "images/img_3.jpg"
+
+  #[[params.work.item]]
+  #  title = "Consectetur adipisicing"
+  #  subtitle = "Web Design"
+  # img = "images/img_2.jpg"
+
+  #[[params.work.item]]
+  #  title = "Consectetur adipisicing"
+  #  subtitle = "Web Design"
+  #  img = "images/img_3.jpg"
+
+  #[[params.work.item]]
+  #  title = "Consectetur adipisicing"
+  #  subtitle = "Web Design"
+  #  img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "We are group of volunteers trying to play our part to help in ."
+
+  [[params.team.item]]
+    name = "Navnit Shukla"
+    position = "Volunteer"
+    description = "Navnit works for Amazon and looking forward to help fello citizen to go this this hard time."
+    img = "images/navnit.jpeg"
+    email = "navnit.shukla25@gmail.com"
+    #telephone = "#"
+    #facebook = "#"
+    twitter = "https://twitter.com/Navnit_Shukla"
+    #dribbble = "#"
+    #instagram = "#"
+   # github = "#"
+    linkedin = "https://www.linkedin.com/in/navnitshukla/"
+   # whatsapp = "#"
+
+  [[params.team.item]]
+    name = "Navnit Shukla"
+    position = "Volunteer"
+    description = "Navnit works for Amazon and looking forward to help fello citizen to go this this hard time."
+    img = "images/person1.jpg"
+    email = "navnit.shukla25@gmail.com"
+    #telephone = "#"
+    #facebook = "#"
+    twitter = "https://twitter.com/Navnit_Shukla"
+    #dribbble = "#"
+    #instagram = "#"
+   # github = "#"
+    linkedin = "https://www.linkedin.com/in/navnitshukla/"
+   # whatsapp = "#"
+
+  [[params.team.item]]
+    name = "Navnit Shukla"
+    position = "Volunteer"
+    description = "Navnit works for Amazon and looking forward to help fello citizen to go this this hard time."
+    img = "images/person1.jpg"
+    email = "navnit.shukla25@gmail.com"
+    #telephone = "#"
+    #facebook = "#"
+    twitter = "https://twitter.com/Navnit_Shukla"
+    #dribbble = "#"
+    #instagram = "#"
+   # github = "#"
+    linkedin = "https://www.linkedin.com/in/navnitshukla/"
+   # whatsapp = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   email = "#"
+  #   telephone = "#"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+  #   whatsapp = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "sign-up to volunteer"
+  message = "If you like of volunteer; please provide your detils and one of us will contact you."
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/Nav25oct' target='_blank'>SteveLane</a></small></p>"
+  github = "#"
+  twitter = "#"
+  facebook = "#"
+  vine = "#"
+  linkedin = "https://www.linkedin.com/in/navnitshukla/"
+  instagram = "#"
+  
